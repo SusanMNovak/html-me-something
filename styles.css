@@ -1,0 +1,99 @@
+body {
+	font-size: 11pt; /* default for page */
+	font-family: 'Verdana', sans-serif;
+	/* font-family: 'Georgia', serif; */
+	color: #333; /* off-black default for text */
+	background-color: #fff; /* shorthand for #ffffff */
+	height: 100vh; /* 100% of viewport height */
+	width: 100vw; /* 100% of viewport width */
+	margin: 0px; /* set this in other elements instead */
+	padding: 0px; /* ditto */
+	
+}
+
+header {
+	color: white;
+	background-color: cornflowerblue;
+	text-align: center;
+	width: 100%;
+	padding: 10px 20px;
+}
+
+main {
+	/* TODO: set margins (and perhaps width) according to desired behavior -- see instructions for options */
+	max-width: 800px;
+	margin: 30px auto; /* top & bottom, left & right */
+}
+
+section {
+	border-left: 10px solid darkmagenta; /* one way to handle left only */
+	border-right: 10px solid darkmagenta;
+	padding: 0px 0px 0px 15px; /* The other way to handle left only */
+	margin: 30px 0px;
+}
+
+footer {
+	color: white;
+	text-align: center;
+	background-color: mediumVioletRed;
+	width: 100%;
+	padding: 10px 20px;
+}
+
+h1 {
+	font-size: 2.5rem;
+	text-transform: uppercase;
+	letter-spacing: 6px; /* adjusts kerning, or space between letters */
+}
+
+p {
+	margin-bottom: 20px;
+}
+
+li {
+		margin-bottom: 6px;
+}
+
+
+/** IDs - for one unique element only **/
+
+#list-heading {
+	font-size: 1.2rem; /* 120% relative to default size */
+	font-weight: bold;
+	color: mediumVioletRed;
+	margin: 8px;
+}
+
+#copyright {
+	/* TODO: change size to be smaller than default, using rem unit */
+	font-size: 0.85rem;
+}
+
+
+/** CLASSES - for multiple elements **/
+
+.float-right {
+	/* TODO: add float property */
+	/* TODO: adjust left margin */
+	float: right;
+	margin-left: 20px;
+}
+
+.img-sm {
+	/* TODO: limit height */
+	max-height: 120px;
+}
+
+.img-md {
+	/* TODO: limit height (but allow more than img-sm class) */
+	max-height: 240px;
+}
+
+.img-lg {
+	/* TODO: set width to fill page */
+	width: 100%; 
+}
+
+.img-border {
+	/* TODO: define a border to be applied to some but not all images */
+	border: 2px darkmagenta solid;
